@@ -9,10 +9,6 @@ load_dotenv()
 
 app = FastAPI()
 
-#SMTP_SERVER = "smtp.gmail.com"
-#SMTP_PORT = 587
-#SMTP_USER = "neitianx273@gmail.com"
-#SMTP_PASSWORD = "rwibwnjnezrxbuqt"
 SMTP_SERVER = os.getenv("SMTP_SERVER")
 SMTP_PORT = os.getenv("SMTP_PORT")
 SMTP_USER = os.getenv("SMTP_USER")
